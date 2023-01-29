@@ -120,6 +120,7 @@ hr {
 
 .familyPhoto {
   height: 600px;
+  width: 400px;
   border-radius: 8px;
 }
 
@@ -157,4 +158,25 @@ hr {
 .footerLogos {
   height: 16px;
   border-radius: 4px;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    font-size: 1em;
+    padding: 24px 24px 0 24px;
+  }
+  
+  .about {
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .about h2 {
+    text-align: center;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 16px;
+  }
 }
