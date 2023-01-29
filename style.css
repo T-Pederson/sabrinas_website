@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 40px 0 40px;
+  color: #008ccf;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.logo {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  height: 40px;
+}
+
+.navbar {
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  color: #008ccf;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.intro {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.intro p {
+  font-size: 1.2em;
+}
+
+.skills {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.skill {
+  background-color: #f7f7f7;
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+}
+
+.skillLogo {
+  height: 150px;
+}
+
+.skillDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  width: 90vw;
+  margin: 30px 0px;
+}
+
+.about {
+  display: flex;
+  gap: 24px;
+}
+
+.familyPhoto {
+  height: 600px;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-top: 8px solid #008ccf;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.contactMethod {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footerLogos {
+  height: 16px;
+  border-radius: 4px;
+}
