@@ -67,7 +67,8 @@ a {
 }
 
 .intro {
-  width: 60vw;
+  width: auto;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +81,8 @@ a {
 }
 
 .skills {
-  width: 50%;
+  width: auto;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -112,6 +114,8 @@ hr {
 .about {
   display: flex;
   gap: 24px;
+  width: auto;
+  max-width: 900px;
 }
 
 .familyPhoto {
